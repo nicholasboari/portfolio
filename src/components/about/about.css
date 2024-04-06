@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 15rem;
+    max-width: 75rem;
+}
+
+.photo {
+    background-color: #ddd;
+    border-radius: 30%;
+    height: 400px;
+    object-fit: cover;
+    width: 400px;
+}
+
+.about {
+    text-align: left;
+    max-width: 30rem;
+}
