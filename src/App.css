@@ -68,6 +68,8 @@ textarea {
 }
 
 body {
+    max-width: 75rem;
+    margin: 0 auto;
     background-color: var(--body-color);
     color: var(--text-color);
 }

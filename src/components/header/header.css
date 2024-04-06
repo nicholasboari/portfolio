@@ -1,0 +1,36 @@
+.header {
+    margin-top: 20px;
+}
+
+.nav {
+    margin: 0;
+}
+
+.nav.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.nav__logo {
+    margin-right: 20px;
+    color: #333;
+}
+
+.nav_list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 20px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: black;
+}
