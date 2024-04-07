@@ -1,0 +1,28 @@
+.container-project {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.project {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid green;
+    margin-bottom: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.project-image {
+    max-width: 40rem;
+}
