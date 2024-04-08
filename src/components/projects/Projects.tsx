@@ -7,9 +7,9 @@ const redirectToUrl = (url: string) => {
 
 const Projects = () => {
     return (
-        <div className="container-project">
+        <div className="container-project" id="projects">
             <h2>Projetos</h2>
-            <div className="project" onClick={() => redirectToUrl("https://github.com/nicholasboari/ecommerce-boari-microservices")}>
+            <div className="project left" onClick={() => redirectToUrl("https://github.com/nicholasboari/ecommerce-boari-microservices")}>
                 <div className="project-image">
                     <img src="src/assets/img/EcommerceBoariDiagram.png" alt="Projeto 1" />
                 </div>
@@ -27,9 +27,9 @@ const Projects = () => {
                     <img src="src/assets/img/diagramaEcommerceBoari.png" alt="Projeto 2" />
                 </div>
             </div>
-            <div className="project" onClick={() => redirectToUrl("https://github.com/nicholasboari/gopportunities")}>
+            <div className="project left" onClick={() => redirectToUrl("https://github.com/nicholasboari/gopportunities")}>
                 <div className="project-image">
-                    <img src="src/assets/img/gopportunities.png" alt="Projeto 2" />
+                    <img src="src/assets/img/gopportunities.png" alt="Projeto 3" />
                 </div>
                 <div className="project-description">
                     <h4>GOpportunities</h4>
@@ -42,7 +42,7 @@ const Projects = () => {
                     <p>Este é um projeto de gerenciamento de carros construído com React. Ele permite que os administradores adicionem, editem e excluam carros de uma lista, além de filtrar os carros por nome.</p>
                 </div>
                 <div className="project-image">
-                    <img src="src/assets/img/exameChuninFront.png" alt="Projeto 3" />
+                    <img src="src/assets/img/exameChuninFront.png" alt="Projeto 4" />
                 </div>
             </div>
         </div>

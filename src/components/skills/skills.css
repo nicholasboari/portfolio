@@ -1,34 +1,26 @@
-.container-project {
-    margin-top: 5rem;
+.container-skills {
+    display: grid;
+    margin: 5rem auto 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.content-skills {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    margin: 50px auto;
+}
+
+.card {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.project-link {
-    text-decoration: none;
-    color: inherit;
-}
-
-.project-image {
-    max-width: 40rem;
-}
-
-.project.left .project-image {
-    margin-right: 1rem;
-}
-
-.project {
-    padding: 1rem;
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    width: 100%;
-    cursor: pointer;
+    width: 180px;
+    height: 200px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
@@ -36,7 +28,11 @@
     overflow: hidden;
 }
 
-.project:before {
+.card img {
+    width: 3rem;
+}
+
+.card:before {
     content: "";
     position: absolute;
     top: 0;
@@ -48,11 +44,11 @@
     transition: opacity 0.5s ease-in-out;
 }
 
-.project:hover:before {
+.card:hover:before {
     opacity: 0.5;
 }
 
-.project-content {
+.card-content {
     width: 170px;
     height: 200px;
     padding: 0 10px;
@@ -71,11 +67,11 @@
     flex-direction: column;
 }
 
-.project-content span {
+.card-content span {
     font-size: 1.7rem;
     font-weight: 700;
 }
 
-.project:hover .project-content {
+.card:hover .card-content {
     transform: translate(-50%, -50%);
 }
