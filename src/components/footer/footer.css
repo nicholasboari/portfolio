@@ -8,3 +8,13 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}

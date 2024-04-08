@@ -79,3 +79,29 @@
 .project:hover .project-content {
     transform: translate(-50%, -50%);
 }
+
+@media (max-width: 768px) {
+    .project {
+        flex-direction: column;
+    }
+
+    .project.left .project-image {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .project-content {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        position: relative;
+        transform: translate(0, -50%);
+        top: 50%;
+        left: auto;
+        text-align: center;
+    }
+
+    .project-content span {
+        font-size: 1.5rem;
+    }
+}

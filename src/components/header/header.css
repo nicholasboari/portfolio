@@ -6,7 +6,7 @@
     margin: 0;
 }
 
-.nav.container {
+.nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,4 +33,20 @@
 .nav__link {
     text-decoration: none;
     color: black;
+}
+
+@media (max-width: 768px) {
+    .nav.container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav__item {
+        margin: 10px 0;
+    }
+
+    .nav__logo {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 }
