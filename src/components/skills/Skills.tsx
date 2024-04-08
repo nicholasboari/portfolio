@@ -1,3 +1,4 @@
+import microservices from "../../assets/img/microservices.png"
 import "./skills.css"
 
 const Skills = () => {
@@ -28,7 +29,7 @@ const Skills = () => {
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
                     AWS S3, EC2, RDS</div>
                 <div className="card">
-                    <img src="src/assets/img/microservices.png" />
+                    <img src={microservices} />
                     Microservices</div>
                 <div className="card">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" />
